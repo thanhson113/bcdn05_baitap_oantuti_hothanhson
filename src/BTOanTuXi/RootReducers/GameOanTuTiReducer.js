@@ -61,10 +61,10 @@ export const gameOanTuTiReducer = (state = gameOanTuTi, action) => {
                     }else{
                         state.ketQua = "I'm iron man, i love you 3000"
                         state.soBanThang++;
-
                     }
                     break;
                 }
+                default:   state.ketQua = "I'm iron man, i love you 3000"
             }
             state.soBanChoi++;
             return { ...state }
